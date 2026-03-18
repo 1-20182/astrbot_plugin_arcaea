@@ -1,0 +1,50 @@
+{
+  "custom_font_path": {
+    "description": "自定义字体文件路径（复杂模式使用，例如 C:/Windows/Fonts/msyh.ttc）",
+    "type": "string",
+    "default": "",
+    "hint": "留空则自动搜索系统字体"
+  },
+  "simple_font_size": {
+    "description": "简化模式字体大小",
+    "type": "int",
+    "default": 35,
+    "hint": "推荐范围 20~45"
+  },
+  "simple_left_rotation": {
+    "description": "左上角文字旋转角度（逆时针为正）",
+    "type": "int",
+    "default": -45,
+    "hint": "例如 -45 表示逆时针45°"
+  },
+  "simple_right_rotation": {
+    "description": "右上角文字旋转角度（逆时针为正）",
+    "type": "int",
+    "default": 45,
+    "hint": "例如 45 表示顺时针45°"
+  },
+  "simple_left_margin": {
+    "description": "左上角文字距离左边和上边的像素数",
+    "type": "int",
+    "default": 20,
+    "hint": "同时控制左右和上下边距，如需分别控制请使用后续参数"
+  },
+  "simple_top_margin": {
+    "description": "上边距（如果留空则与 simple_left_margin 相同）",
+    "type": "int",
+    "default": 20,
+    "hint": "留空时与左边距保持一致"
+  },
+  "simple_right_margin": {
+    "description": "右上角文字距离右边和上边的像素数",
+    "type": "int",
+    "default": 20,
+    "hint": "留空时与左边距保持一致"
+  },
+  "trigger_keywords": {
+    "description": "触发随机表情包的关键词（多个用逗号分隔）",
+    "type": "string",
+    "default": "arc表情包",
+    "hint": "当消息包含这些关键词时自动发送随机表情包"
+  }
+}
