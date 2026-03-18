@@ -1,0 +1,10 @@
+name: astrbot_plugin_arcaea_sticker
+desc: 生成 Arcaea 风格表情包，支持描边、多行文字、角色默认颜色，可自定义字体。
+help: |
+  生成 Arcaea 风格的表情包。支持两种模式：
+  - 简化模式：/arc <角色> <文字>（无选项），文字固定显示在左上角和右上角，使用 ./fonts 下的字体，仅输出图片。
+  - 复杂模式：/arc <角色> <文字> [选项]，可自定义位置、角度、颜色、描边等。
+  其他命令：/arc list 查看可用角色，/arc_help 查看详细帮助。
+version: 3.0.0
+author: YourName
+repo: https://github.com/YourName/astrbot_plugin_arcaea_sticker
