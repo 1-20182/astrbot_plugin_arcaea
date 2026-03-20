@@ -1,6 +1,3 @@
-已在 README.md 的“致谢与友情链接”部分增加对 yangze321 的感谢。以下是更新后的完整文件：
-
-```markdown
 # 🎨 Arcaea 表情包生成器 (AstrBot 版)
 
 [![AstrBot](https://img.shields.io/badge/AstrBot-插件-green.svg)](https://github.com/Soulter/AstrBot) [![Version](https://img.shields.io/badge/Version-4.2.0-blue)]()
